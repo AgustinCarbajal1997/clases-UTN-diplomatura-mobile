@@ -1,0 +1,31 @@
+1) que es la ciencia computacional?
+
+- el estudio y diseño de algoritmos, calculos y sistemas de informacion, en la teoria 
+y en la practica, con la ayuda de computadoras
+
+hardware -> la parte fisica de la computadora: input (microfono, teclado), output(monitor), 
+storage (ssd)
+
+software -> las intrucciones y data que hacen que la computadora funcione
+
+bit -> la unidad mas chica de data o informacion, puede ser 1 o 0
+
+byte -> consiste en 8 bits. Un byte es usado para guarda un caracter unico (por ejemplo
+una letra o un numero, R o 7)
+
+kilo -> 1.000 bytes
+
+mega -> 1.000.000 un millon de bytes
+
+giga -> 1.000.000.000 un billon de bytes
+
+
+2) que es programar?
+
+- proceso de diseñar y escribir un conjuto de intrucciones para realizar una tarea 
+especifica
+
+3) que es un programa?
+
+- un conjuto de instruccion escritas en un lenguaje espeficifo para que la computadora lo 
+interprete y pueda cumplir una tarea

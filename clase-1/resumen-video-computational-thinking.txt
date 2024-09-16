@@ -1,0 +1,22 @@
+1) Que es computational thinking?
+- una forma de abordar un problema de manera sistematica
+- crear una solucion
+
+2) tecnicas del pensamiento computacional
+- Decomposition: Descomponer el problema en pequeñas partes. 
+Dividir en pequeños problemas y subproblemas. En programacion es 
+muy importante Dividiren pequeños componentes y hacerlos reutilizables
+para problemas similares
+
+- generalizacion o patron de reconicimiento: reconocer si en algun otro momento resolviste 
+un problema similar y de que forma. por ejemplo ordenamiento de elementos
+
+- abstraccion: simplificar un problema para enfocarse unicamente en los detalles del 
+problema. Por ejemplo un mapa, me interesa el camino y el relieve. 
+
+- algoritmos: crear algoritmos, osea una secuencia de instrucciones para resolver un problema
+
+- razonamiento logico: hacer al programa tomar decisiones, hacer una cosa o la 
+otra segun cierta condicion
+
+- evaluacion: preguntarse si el programa es bueno y como puede mejorarse
