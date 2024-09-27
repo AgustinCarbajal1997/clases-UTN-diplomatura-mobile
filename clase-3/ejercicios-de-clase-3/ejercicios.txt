@@ -1,0 +1,135 @@
+Ejercicio 1 ***** LISTO *****
+
+Consigna:
+Crea un programa que valide un usuario y contraseña utilizando un mapa (Map<String, String>). 
+Si el usuario y la contraseña son correctos, el programa debe imprimir "Acceso concedido". 
+De lo contrario, imprimir "Acceso denegado".
+
+Datos para trabajar:
+Map<String, String> usuarios = {
+    'usuario1': 'password123',
+    'usuario2': 'abc123',
+};
+
+Ejercicio 2 ******* LISTO ********
+
+Consigna:
+Crea un programa de consola que simule una calculadora básica. 
+El usuario puede seleccionar entre sumar, restar, multiplicar o dividir dos números mediante un menú.
+Nota: Una posible solución (aunque pueden generar otras), crear una función que reciba los datos, 
+y que a su vez evalúe el tipo de operación en un Switch.
+
+Ejemplo de datos que recibe la función:
+int a = 10;
+  int b = 5;
+  String operacion = 'sumar';
+
+Ejercicio 3 ***** LISTO *********
+
+Consigna:
+Crea una lista de tareas donde se pueda agregar, mostrar y eliminar tareas. 
+Cada tarea tendrá un título y una descripción. Permitir eliminar por nombre de tarea.
+
+Ejemplo de Datos:
+List<Map<String, String>> tareas = 
+[
+    {'titulo': 'Comprar comida', 'descripcion': 'Ir al supermercado'},
+    {'titulo': 'Estudiar', 'descripcion': 'Repasar Flutter'},
+
+];
+
+Ejercicio 4: ***** LISTO *******
+
+Consigna:
+Crea una lista de productos con nombre y precio. 
+Filtra los productos que cuestan más de 50 y muestra los resultados.
+
+Posible lista de datos (Noten el "dynamic")
+List<Map<String, dynamic>> productos = [
+    {'nombre': 'Producto 1', 'precio': 30},
+    {'nombre': 'Producto 2', 'precio': 60},
+    {'nombre': 'Producto 3', 'precio': 80}
+  ];
+
+Ejercicio 5: *** LISTO *****
+Consigna:
+Crea un programa que permita al usuario convertir una temperatura de grados Celsius a Fahrenheit y viceversa.
+(Crear una función para cada operación)
+
+Ejercicio 6:
+
+Consigna:
+Crea un programa que permita al usuario buscar productos por su categoría dentro de un mapa que contiene productos y sus categorías.
+
+Datos:
+Map<String, String> productos = {
+  'Notebook': 'Tecnologia',
+  'Smartphone': 'Tecnologia',
+  'Televisor': 'Electrodomesticos',
+  'Lavadora': 'Electrodomesticos',
+  'Mesa': 'Muebles',
+  'Silla': 'Muebles',
+  'Reloj': 'Accesorios',
+  'Bolso': 'Accesorios',
+  'Cafetera': 'Electrodomesticos',
+  'Lámpara': 'Decoracion'
+};
+
+Ejercicio 7:
+
+Consigna
+Crea una lista de usuarios con su nombre y edad. El programa debe filtrar los usuarios mayores de 30 años y mostrarlos.
+
+Datos
+List<Map<String, dynamic>> usuarios = [
+  {'nombre': 'Ana', 'edad': 25},
+  {'nombre': 'Luis', 'edad': 35},
+  {'nombre': 'Carlos', 'edad': 40},
+  {'nombre': 'Juan', 'edad': 28},
+  {'nombre': 'Maria', 'edad': 32},
+  {'nombre': 'Laura', 'edad': 29},
+  {'nombre': 'Pablo', 'edad': 45},
+  {'nombre': 'Sofia', 'edad': 27},
+  {'nombre': 'Alberto', 'edad': 33},
+  {'nombre': 'Isabel', 'edad': 41},
+];
+
+Ejercicio 8:
+
+Consigna:
+Crea un inventario de productos y sus cantidades. 
+El programa debe permitir actualizar la cantidad de un producto, sumando o restando unidades.
+
+Map<String, int> inventario = {
+  'Laptop': 10,
+  'Smartphone': 25,
+  'Televisor': 5,
+  'Lavadora': 8,
+  'Mesa': 12,
+  'Silla': 20,
+  'Reloj': 50,
+  'Bolso': 15,
+  'Cafetera': 7,
+  'Lámpara': 18
+};
+
+Ejercicio 9:
+
+Consigna:
+Crea una lista de tareas, cada una con un título y una prioridad (alta, media o baja). 
+Permite al usuario filtrar las tareas por su prioridad. (Fijensé que es muy parecido al 6).
+
+Datos:
+
+List<Map<String, String>> tareas = [
+  {'titulo': 'Estudiar', 'prioridad': 'alta'},
+  {'titulo': 'Limpiar', 'prioridad': 'baja'},
+  {'titulo': 'Trabajar', 'prioridad': 'media'},
+  {'titulo': 'Comprar comida', 'prioridad': 'alta'},
+  {'titulo': 'Ejercicio', 'prioridad': 'baja'},
+  {'titulo': 'Leer', 'prioridad': 'media'},
+  {'titulo': 'Cocinar', 'prioridad': 'baja'},
+  {'titulo': 'Jugar videojuegos', 'prioridad': 'media'},
+  {'titulo': 'Dormir', 'prioridad': 'alta'},
+  {'titulo': 'Visitar amigos', 'prioridad': 'media'},
+];
